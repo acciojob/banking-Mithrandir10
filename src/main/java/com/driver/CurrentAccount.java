@@ -5,6 +5,10 @@ package com.driver;
 public class CurrentAccount extends BankAccount{
     String tradeLicenseId; //consists of Uppercase English characters only
 
+    public String getTradeLicenseId() {
+        return tradeLicenseId;
+    }
+
     public CurrentAccount(){
 
     }
